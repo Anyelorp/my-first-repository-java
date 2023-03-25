@@ -8,10 +8,10 @@ public class Ejersicio2 {
         System.out.println("ingrese el primer numero: ");
         int n1 = n.nextInt();
         System.out.println("ingrese el segundo numero: ");
-        int n2 = n.nextInt();
+        int n2 = n.nextInt ();
         System.out.println("los numeros impares de " + n1 + "a" + n2 + "son:");
         for (int i= 1; n1 <= n2; i++){
-            if (i % 2 == 1){
+            if (i % 2 !=0){
                 System.out.println(i);
         }
     }                
